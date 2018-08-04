@@ -13,7 +13,6 @@ public class FlashlightMovement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-			Debug.LogWarning("Light pos: " + light.transform.position + " " + "Control pos: " + transform.position);
 			light.transform.position = transform.position;	
 	}
 }
