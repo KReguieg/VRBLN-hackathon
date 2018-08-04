@@ -37,3 +37,6 @@ sysinfo.txt
 
 # Blender
 *.blend[1-9]
+.vscode/
+Assets/VSCode.meta
+Assets/VSCode/
