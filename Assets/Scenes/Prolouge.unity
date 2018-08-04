@@ -376,7 +376,7 @@ ParticleSystem:
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
-  autoRandomSeed: 1
+  autoRandomSeed: 0
   useRigidbodyForVelocity: 1
   startDelay:
     serializedVersion: 2
@@ -434,7 +434,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 0
+  randomSeed: 8175
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -5115,7 +5115,7 @@ ParticleSystem:
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
-  autoRandomSeed: 1
+  autoRandomSeed: 0
   useRigidbodyForVelocity: 1
   startDelay:
     serializedVersion: 2
@@ -5173,7 +5173,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 0
+  randomSeed: 8175
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -9801,7 +9801,7 @@ ParticleSystem:
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
-  autoRandomSeed: 1
+  autoRandomSeed: 0
   useRigidbodyForVelocity: 1
   startDelay:
     serializedVersion: 2
@@ -9859,7 +9859,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 0
+  randomSeed: 8175
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -14421,7 +14421,7 @@ ParticleSystem:
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
-  autoRandomSeed: 1
+  autoRandomSeed: 0
   useRigidbodyForVelocity: 1
   startDelay:
     serializedVersion: 2
@@ -14479,7 +14479,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 0
+  randomSeed: 8175
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -28368,7 +28368,7 @@ ParticleSystem:
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
-  autoRandomSeed: 1
+  autoRandomSeed: 0
   useRigidbodyForVelocity: 1
   startDelay:
     serializedVersion: 2
@@ -28426,7 +28426,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 0
+  randomSeed: 8175
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -37559,8 +37559,13 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: 114258588046666792, guid: 715e6004f9427e9479bd08b9ff50e2dd, type: 2}
     value: {fileID: 1579472380}
+  - key: {fileID: 114822346783881616, guid: 715e6004f9427e9479bd08b9ff50e2dd, type: 2}
+    value: {fileID: 698649133}
+  - key: {fileID: 114095858327776386, guid: 715e6004f9427e9479bd08b9ff50e2dd, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
-    m_References: []
+    m_References:
+    - 05701eae27accdc41ad37c6a44ba3ab4: {fileID: 698649133}
 --- !u!4 &1579472382
 Transform:
   m_ObjectHideFlags: 0
