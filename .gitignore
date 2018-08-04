@@ -38,5 +38,7 @@ sysinfo.txt
 # Blender
 *.blend[1-9]
 .vscode/
+
+# VS Code
 Assets/VSCode.meta
 Assets/VSCode/
