@@ -325,11 +325,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 766fef5a266f4734b9606f5015a5bd81, type: 3}
   m_IsPrefabAsset: 0
---- !u!95 &166835155 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 9500000, guid: 766fef5a266f4734b9606f5015a5bd81,
-    type: 3}
-  m_PrefabInternal: {fileID: 161881486}
 --- !u!1 &204299526
 GameObject:
   m_ObjectHideFlags: 0
@@ -549,10 +544,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 558296026}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cd3f9840aad3244fb1d02aaad60e2bf, type: 3}
+  m_Script: {fileID: 11500000, guid: 7114288acce4e2642b8f20624858ec70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 166835155}
+  operateAxis: 1
+  ignoreCollisionsWith: []
+  excludeColliderCheckOn: []
+  equalityFidelity: 0.001
+  maximumLength: 0.1
+  minMaxThreshold: 0.01
+  positionTarget: 0
+  restingPosition: 0
+  forceRestingPositionThreshold: 0
+  stepValueRange:
+    minimum: 0
+    maximum: 1
+  stepSize: 0.1
+  useStepAsValue: 1
+  snapToStep: 0
+  snapForce: 10
+  trackingSpeed: 25
+  precisionGrab: 1
+  detachDistance: 1
+  releaseFriction: 10
+  onlyInteractWith: []
 --- !u!4 &558296029
 Transform:
   m_ObjectHideFlags: 0

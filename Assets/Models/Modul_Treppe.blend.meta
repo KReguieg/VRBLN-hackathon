@@ -1,60 +1,23 @@
 fileFormatVersion: 2
-guid: 10747cf1974cfc14c8df514908fe2169
+guid: e27f51cdf062d164b9ab4ec35a82769a
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: GangKurz
-    100004: Plane
-    100006: Plane_001
-    100008: Plane_002
-    100010: Plane_003
-    100012: Plane_004
-    100014: Plane_005
     400000: //RootNode
-    400002: GangKurz
-    400004: Plane
-    400006: Plane_001
-    400008: Plane_002
-    400010: Plane_003
-    400012: Plane_004
-    400014: Plane_005
+    2100000: unnamed
     2300000: //RootNode
-    2300002: GangKurz
-    2300004: Plane
-    2300006: Plane_001
-    2300008: Plane_002
-    2300010: Plane_003
-    2300012: Plane_004
-    2300014: Plane_005
     3300000: //RootNode
-    3300002: GangKurz
-    3300004: Plane
-    3300006: Plane_001
-    3300008: Plane_002
-    3300010: Plane_003
-    3300012: Plane_004
-    3300014: Plane_005
-    4300000: GangKurz
-    4300002: Plane_005
-    4300004: Plane_004
-    4300006: Plane_003
-    4300008: Plane_002
-    4300010: Plane_001
-    4300012: Plane
+    4300000: Treppe
     7400000: Default Take
     9500000: //RootNode
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: unnamed
-    second: {fileID: 2100000, guid: bd3d5ac25958d5944b3e4115b929e752, type: 2}
+    2186277476908879412: ImportLogs
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
