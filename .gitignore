@@ -37,3 +37,15 @@ sysinfo.txt
 
 # Blender
 *.blend[1-9]
+*.blend[1-9].meta
+.vscode/
+
+# VS Code
+Assets/VSCode.meta
+Assets/VSCode/
+
+# Private Scenes
+LukiTest.unity
+LukiTest.unity.meta
+TestsJules.unity.meta
+TestsJules.unity
