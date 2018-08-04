@@ -42,3 +42,9 @@ sysinfo.txt
 # VS Code
 Assets/VSCode.meta
 Assets/VSCode/
+
+# Private Scenes
+LukiTest.unity
+LukiTest.unity.meta
+TestsJules.unity.meta
+TestsJules.unity
