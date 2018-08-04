@@ -58,6 +58,7 @@ GameObject:
   - component: {fileID: 114806799269537316}
   - component: {fileID: 114774928222671278}
   - component: {fileID: 114006336204973732}
+  - component: {fileID: 114172044942463742}
   m_Layer: 0
   m_Name: PipeSnapDropZone
   m_TagString: Untagged
@@ -78,6 +79,7 @@ GameObject:
   - component: {fileID: 114836764738537110}
   - component: {fileID: 114314186592513184}
   - component: {fileID: 114467125701593526}
+  - component: {fileID: 114292745998604706}
   m_Layer: 0
   m_Name: PipeSnapDropZone (2)
   m_TagString: Untagged
@@ -96,6 +98,7 @@ GameObject:
   - component: {fileID: 33704859283838588}
   - component: {fileID: 23600490434159726}
   - component: {fileID: 65511268266638568}
+  - component: {fileID: 114291300206215810}
   m_Layer: 0
   m_Name: PipeBox
   m_TagString: Untagged
@@ -368,6 +371,7 @@ GameObject:
   - component: {fileID: 114303602635340546}
   - component: {fileID: 114582802545015190}
   - component: {fileID: 114023008441944818}
+  - component: {fileID: 114221336076629764}
   m_Layer: 0
   m_Name: PipeSnapDropZone (4)
   m_TagString: Untagged
@@ -480,6 +484,7 @@ GameObject:
   - component: {fileID: 114986645633921958}
   - component: {fileID: 114173728756457752}
   - component: {fileID: 114139699227341364}
+  - component: {fileID: 114843720286348480}
   m_Layer: 0
   m_Name: PipeSnapDropZone (3)
   m_TagString: Untagged
@@ -517,6 +522,7 @@ GameObject:
   - component: {fileID: 114651305941330102}
   - component: {fileID: 114260811510508706}
   - component: {fileID: 114857577446063904}
+  - component: {fileID: 114562593605745616}
   m_Layer: 0
   m_Name: PipeSnapDropZone (1)
   m_TagString: Untagged
@@ -1561,6 +1567,18 @@ MonoBehaviour:
   checkType: 1
   identifiers:
   - SnapPipe
+--- !u!114 &114172044942463742
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1108447178203716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49bbbff53a17bde4b851aab659929f4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctObjectToSnap: {fileID: 0}
 --- !u!114 &114173728756457752
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1576,6 +1594,18 @@ MonoBehaviour:
   unhighlightOnDisable: 1
   emissionDarken: 50
   customMaterial: {fileID: 2100000, guid: eab5111f6a22e2c4ea9a1e9165611f3f, type: 2}
+--- !u!114 &114221336076629764
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1722072897965222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49bbbff53a17bde4b851aab659929f4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctObjectToSnap: {fileID: 0}
 --- !u!114 &114260811510508706
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1591,6 +1621,35 @@ MonoBehaviour:
   unhighlightOnDisable: 1
   emissionDarken: 50
   customMaterial: {fileID: 2100000, guid: eab5111f6a22e2c4ea9a1e9165611f3f, type: 2}
+--- !u!114 &114291300206215810
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1218547329546044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60441420d30f69f43ad3ee74296609b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  snapDropZones:
+  - {fileID: 114172044942463742}
+  - {fileID: 114562593605745616}
+  - {fileID: 114292745998604706}
+  - {fileID: 114843720286348480}
+  - {fileID: 114221336076629764}
+--- !u!114 &114292745998604706
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1162696649181270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49bbbff53a17bde4b851aab659929f4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctObjectToSnap: {fileID: 0}
 --- !u!114 &114303602635340546
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1644,6 +1703,18 @@ MonoBehaviour:
   checkType: 1
   identifiers:
   - SnapPipe
+--- !u!114 &114562593605745616
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1997911299423708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49bbbff53a17bde4b851aab659929f4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctObjectToSnap: {fileID: 0}
 --- !u!114 &114582802545015190
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1743,6 +1814,18 @@ MonoBehaviour:
   displayDropZoneInEditor: 1
   defaultSnappedInteractableObject: {fileID: 0}
   defaultSnappedObject: {fileID: 0}
+--- !u!114 &114843720286348480
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1983390267966898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49bbbff53a17bde4b851aab659929f4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctObjectToSnap: {fileID: 0}
 --- !u!114 &114857577446063904
 MonoBehaviour:
   m_ObjectHideFlags: 1
