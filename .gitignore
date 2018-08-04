@@ -37,6 +37,10 @@ sysinfo.txt
 
 # Blender
 *.blend[1-9]
-*.blend[1-9].meta
+.vscode/
+
+# VS Code
+Assets/VSCode.meta
+Assets/VSCode/
 LukiTest.unity
 LukiTest.unity.meta
