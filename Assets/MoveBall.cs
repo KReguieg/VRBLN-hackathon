@@ -11,10 +11,17 @@ public class MoveBall : MonoBehaviour {
 		mRigidBody = GetComponent<Rigidbody> ();
 	}
 	
+	Vector3 movement;
 	// Update is called once per frame
 	void FixedUpdate  () {
-		Vector3 movement = new Vector3 (Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0.0f);
-
+		if(Input.GetKey(KeyCode.A))
+			movement = Vector3.left;
+		if(Input.GetKey(KeyCode.D))
+			movement = Vector3.right;
+		if(Input.GetKey(KeyCode.W))
+			movement = Vector3.up;
+		if(Input.GetKey(KeyCode.S))
+			movement = Vector3.down;
         mRigidBody.AddForce (movement * speed);
 	}
 }
