@@ -2088,6 +2088,8 @@ GameObject:
   - component: {fileID: 884273656}
   - component: {fileID: 884273655}
   - component: {fileID: 884273657}
+  - component: {fileID: 884273659}
+  - component: {fileID: 884273658}
   m_Layer: 5
   m_Name: ship
   m_TagString: Untagged
@@ -2164,6 +2166,33 @@ MonoBehaviour:
   - {fileID: 1376154338}
   OrbitLeverMoved: {fileID: 11400000, guid: 78c4963ed5478674bbc14b265f6dc9c1, type: 2}
   speed: 10
+--- !u!54 &884273658
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 884273653}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!135 &884273659
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 884273653}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 12.4
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &928042982
 GameObject:
   m_ObjectHideFlags: 0
