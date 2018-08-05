@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/samplescene.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
+    path: Assets/Scenes/Menu.unity
+    guid: 28aa23957f060a242aabb38ec2355fcb
+  - enabled: 1
+    path: Assets/Scenes/Prolouge.unity
+    guid: 8a485b60b1f2d2e419edd86c6f8c55ad
   - enabled: 1
     path: Assets/Scenes/Cockpit.unity
     guid: 76bbc95756193854699e91aa7b6dd554
@@ -20,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RiddelPipeRoomNumbers.unity
     guid: f503bf48aafc36846ba20bdcda8bea63
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: e1f30f8779a4bd04a8e94c326b1ced28
+  - enabled: 1
+    path: Assets/Scenes/MazeTestGame.unity
+    guid: 9809d759ca0e94a459e3fe229006ea80
   m_configObjects: {}
