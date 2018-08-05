@@ -1,9 +1,7 @@
 fileFormatVersion: 2
 guid: 68ca4d8066ade634e8f4714291ae2013
-timeCreated: 1533424253
-licenseType: Free
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: aperture_01
     100002: aperture_02
@@ -138,6 +136,8 @@ ModelImporter:
     100260: Tuer_8
     100262: VerkleidungBoden
     100264: VerkleidungSeiten
+    100266: Circle_004
+    100268: Circle_005
     400000: aperture_01
     400002: aperture_02
     400004: aperture_02_001
@@ -271,6 +271,8 @@ ModelImporter:
     400260: Tuer_8
     400262: VerkleidungBoden
     400264: VerkleidungSeiten
+    400266: Circle_004
+    400268: Circle_005
     2300000: aperture_01
     2300002: aperture_02
     2300004: aperture_02_001
@@ -403,6 +405,8 @@ ModelImporter:
     2300258: Tuer_8
     2300260: VerkleidungBoden
     2300262: VerkleidungSeiten
+    2300264: Circle_004
+    2300266: Circle_005
     3300000: aperture_01
     3300002: aperture_02
     3300004: aperture_02_001
@@ -535,6 +539,8 @@ ModelImporter:
     3300258: Tuer_8
     3300260: VerkleidungBoden
     3300262: VerkleidungSeiten
+    3300264: Circle_004
+    3300266: Circle_005
     4300000: Circle_003
     4300002: Circle_002
     4300004: Circle_001
@@ -667,6 +673,8 @@ ModelImporter:
     4300258: Circle_3
     4300260: Tuer_8
     4300262: Treppe_1
+    4300264: Circle_005
+    4300266: Circle_004
     7400000: Default Take
     9500000: //RootNode
   externalObjects:
@@ -693,6 +701,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -717,11 +726,15 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
