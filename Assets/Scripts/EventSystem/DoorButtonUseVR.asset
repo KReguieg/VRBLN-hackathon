@@ -9,5 +9,5 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6bfe1b182fe75394b8d27ba7ab172279, type: 3}
-  m_Name: DoorButtonUseVR
+  m_Name: DoorButtonUse
   m_EditorClassIdentifier: 
