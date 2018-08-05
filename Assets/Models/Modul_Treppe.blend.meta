@@ -4,11 +4,25 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: COLLIDER_BODEN
+    100004: COLLIDER_WAND
+    100006: Treppe
     400000: //RootNode
+    400002: COLLIDER_BODEN
+    400004: COLLIDER_WAND
+    400006: Treppe
     2100000: unnamed
     2300000: //RootNode
+    2300002: COLLIDER_BODEN
+    2300004: COLLIDER_WAND
+    2300006: Treppe
     3300000: //RootNode
+    3300002: COLLIDER_BODEN
+    3300004: COLLIDER_WAND
+    3300006: Treppe
     4300000: Treppe
+    4300002: COLLIDER_WAND
+    4300004: COLLIDER_BODEN
     7400000: Default Take
     9500000: //RootNode
     2186277476908879412: ImportLogs

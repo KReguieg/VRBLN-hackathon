@@ -11,6 +11,9 @@ ModelImporter:
     100010: Plane_003
     100012: Plane_004
     100014: Plane_005
+    100016: COLLIDER_BODEN
+    100018: COLLIDER_WAND
+    100020: GLASS
     400000: //RootNode
     400002: GangKurz
     400004: Plane
@@ -19,6 +22,9 @@ ModelImporter:
     400010: Plane_003
     400012: Plane_004
     400014: Plane_005
+    400016: COLLIDER_BODEN
+    400018: COLLIDER_WAND
+    400020: GLASS
     2300000: //RootNode
     2300002: GangKurz
     2300004: Plane
@@ -27,6 +33,9 @@ ModelImporter:
     2300010: Plane_003
     2300012: Plane_004
     2300014: Plane_005
+    2300016: COLLIDER_BODEN
+    2300018: COLLIDER_WAND
+    2300020: GLASS
     3300000: //RootNode
     3300002: GangKurz
     3300004: Plane
@@ -35,6 +44,9 @@ ModelImporter:
     3300010: Plane_003
     3300012: Plane_004
     3300014: Plane_005
+    3300016: COLLIDER_BODEN
+    3300018: COLLIDER_WAND
+    3300020: GLASS
     4300000: GangKurz
     4300002: Plane_005
     4300004: Plane_004
@@ -42,6 +54,9 @@ ModelImporter:
     4300008: Plane_002
     4300010: Plane_001
     4300012: Plane
+    4300014: COLLIDER_WAND
+    4300016: COLLIDER_BODEN
+    4300018: GLASS
     7400000: Default Take
     9500000: //RootNode
   externalObjects:

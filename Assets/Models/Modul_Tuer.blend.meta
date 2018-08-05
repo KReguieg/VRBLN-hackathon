@@ -24,6 +24,8 @@ ModelImporter:
     100036: Tuer
     100038: Tuer_001
     100040: Tuer_002
+    100042: COLLIDER_WAND
+    100044: Tuer_003
     400000: aperture_01
     400002: aperture_02
     400004: aperture_02_001
@@ -45,6 +47,8 @@ ModelImporter:
     400036: Tuer
     400038: Tuer_001
     400040: Tuer_002
+    400042: COLLIDER_WAND
+    400044: Tuer_003
     2100000: unnamed
     2300000: aperture_01
     2300002: aperture_02
@@ -66,6 +70,8 @@ ModelImporter:
     2300034: Tuer
     2300036: Tuer_001
     2300038: Tuer_002
+    2300040: COLLIDER_WAND
+    2300042: Tuer_003
     3300000: aperture_01
     3300002: aperture_02
     3300004: aperture_02_001
@@ -86,6 +92,8 @@ ModelImporter:
     3300034: Tuer
     3300036: Tuer_001
     3300038: Tuer_002
+    3300040: COLLIDER_WAND
+    3300042: Tuer_003
     4300000: NurbsCurve_007
     4300002: NurbsCurve_006
     4300004: NurbsCurve_005
@@ -106,6 +114,8 @@ ModelImporter:
     4300034: aperture_02
     4300036: Circle
     4300038: Tuer
+    4300040: Tuer_003
+    4300042: COLLIDER_WAND
     7400000: Default Take
     9500000: //RootNode
     2186277476908879412: ImportLogs

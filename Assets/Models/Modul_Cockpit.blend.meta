@@ -138,6 +138,9 @@ ModelImporter:
     100264: VerkleidungSeiten
     100266: Circle_004
     100268: Circle_005
+    100270: Collider_BODEN
+    100272: Collider_WAND
+    100274: GLASS
     400000: aperture_01
     400002: aperture_02
     400004: aperture_02_001
@@ -273,6 +276,9 @@ ModelImporter:
     400264: VerkleidungSeiten
     400266: Circle_004
     400268: Circle_005
+    400270: Collider_BODEN
+    400272: Collider_WAND
+    400274: GLASS
     2300000: aperture_01
     2300002: aperture_02
     2300004: aperture_02_001
@@ -407,6 +413,9 @@ ModelImporter:
     2300262: VerkleidungSeiten
     2300264: Circle_004
     2300266: Circle_005
+    2300268: Collider_BODEN
+    2300270: Collider_WAND
+    2300272: GLASS
     3300000: aperture_01
     3300002: aperture_02
     3300004: aperture_02_001
@@ -541,6 +550,9 @@ ModelImporter:
     3300262: VerkleidungSeiten
     3300264: Circle_004
     3300266: Circle_005
+    3300268: Collider_BODEN
+    3300270: Collider_WAND
+    3300272: GLASS
     4300000: Circle_003
     4300002: Circle_002
     4300004: Circle_001
@@ -675,6 +687,9 @@ ModelImporter:
     4300262: Treppe_1
     4300264: Circle_005
     4300266: Circle_004
+    4300268: Collider_BODEN
+    4300270: Collider_WAND
+    4300272: GLASS
     7400000: Default Take
     9500000: //RootNode
   externalObjects:
