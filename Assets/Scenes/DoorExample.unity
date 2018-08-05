@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028346, g: 0.22571373, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -214,7 +214,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &76795235
 AudioListener:
   m_ObjectHideFlags: 0
@@ -325,6 +325,11 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 766fef5a266f4734b9606f5015a5bd81, type: 3}
   m_IsPrefabAsset: 0
+--- !u!95 &166835155 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: 766fef5a266f4734b9606f5015a5bd81,
+    type: 3}
+  m_PrefabInternal: {fileID: 161881486}
 --- !u!1 &204299526
 GameObject:
   m_ObjectHideFlags: 0
@@ -528,7 +533,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 558296029}
-  - component: {fileID: 558296028}
+  - component: {fileID: 558296027}
   m_Layer: 0
   m_Name: FreeSlideArtificialSlider
   m_TagString: Untagged
@@ -536,7 +541,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &558296028
+--- !u!114 &558296027
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -544,30 +549,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 558296026}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7114288acce4e2642b8f20624858ec70, type: 3}
+  m_Script: {fileID: 11500000, guid: 772890a2f554e294b806a0510f502628, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  operateAxis: 1
-  ignoreCollisionsWith: []
-  excludeColliderCheckOn: []
-  equalityFidelity: 0.001
-  maximumLength: 0.1
-  minMaxThreshold: 0.01
-  positionTarget: 0
-  restingPosition: 0
-  forceRestingPositionThreshold: 0
-  stepValueRange:
-    minimum: 0
-    maximum: 1
-  stepSize: 0.1
-  useStepAsValue: 1
-  snapToStep: 0
-  snapForce: 10
-  trackingSpeed: 25
-  precisionGrab: 1
-  detachDistance: 1
-  releaseFriction: 10
-  onlyInteractWith: []
+  animator: {fileID: 166835155}
+  openess: 0
 --- !u!4 &558296029
 Transform:
   m_ObjectHideFlags: 0
@@ -576,7 +562,7 @@ Transform:
   m_GameObject: {fileID: 558296026}
   m_LocalRotation: {x: 0.49999976, y: -0.49999985, z: -0.50000024, w: 0.50000024}
   m_LocalPosition: {x: 1.336, y: 2.537, z: 4.527}
-  m_LocalScale: {x: 2.8743, y: 2.8743, z: 2.8743}
+  m_LocalScale: {x: 1.543298, y: 1.543298, z: 1.543298}
   m_Children:
   - {fileID: 204299527}
   - {fileID: 1350820743}
