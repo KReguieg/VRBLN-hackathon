@@ -8,6 +8,8 @@ public class DangerManager : MonoBehaviour {
 	public Transform[] start;
 	public Transform[] end;
 	public float dangerSpeed = 1;
+
+	public GameObject WarningSign;
 	
 	// Use this for initialization
 	void Start () {
@@ -19,8 +21,10 @@ public class DangerManager : MonoBehaviour {
 		time = Time.time;
 		for (int i = 0; i < dangers.Count; i++)
 		{
+			
 			if(!dangers[i].Remove && Mathf.Abs(Time.time - dangers[i].time * 60 ) <= 0.01f)
 			{
+				WarningSign.SetActive(true);
 				GameObject obj = Instantiate(CometPrefab, transform);
 				obj.GetComponent<meteor>().transfromStart = start[dangers[i].Orbit - 1];
 				obj.GetComponent<meteor>().transfromTarget = end[dangers[i].Orbit - 1];
