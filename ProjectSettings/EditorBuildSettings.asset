@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cockpit.unity
     guid: 76bbc95756193854699e91aa7b6dd554
+  - enabled: 1
+    path: Assets/Scenes/Enviroment.unity
+    guid: 5c45160542fd8364bb4bc0108f68b0fa
   m_configObjects: {}
