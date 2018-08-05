@@ -7,10 +7,11 @@ using UnityEngine.Events;
 public class GameEvent : ScriptableObject {
 
 	
-	public UnityEvent<GameEvent> Listener;
+	public System.Action<GameEvent> Listener;
 
 	public void FireEvent(){
-		Listener.Invoke(this);
+		if(Listener != null)
+			Listener.Invoke(this);
 	}
 
 }

@@ -16,6 +16,9 @@ ModelImporter:
     400008: Lever_002
     400010: Plane
     2100000: unnamed
+    2100002: Silver
+    2100004: Light
+    2100006: White
     2300000: Lever
     2300002: Lever_001
     2300004: Sphere
@@ -33,7 +36,27 @@ ModelImporter:
     4300008: Plane
     7400000: Default Take
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light
+    second: {fileID: 2100000, guid: 702110e38ace7094ea4768a334072575, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Silver
+    second: {fileID: 2100000, guid: bd2b7c4b8006b2842b23c0ed77bf65f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: 4acb40b9fcad89d40a4b970ff1c8654f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: unnamed
+    second: {fileID: 2100000, guid: 4acb40b9fcad89d40a4b970ff1c8654f, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
