@@ -14,6 +14,9 @@ ModelImporter:
     400006: Cube_003
     400008: //RootNode
     2100000: unnamed
+    2100002: Glass
+    2100004: Inner
+    2100006: White
     2300000: Cube
     2300002: Cube_001
     2300004: Cube_002
@@ -29,7 +32,22 @@ ModelImporter:
     7400000: Default Take
     9500000: //RootNode
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 28425a29b70755841b3e2a603b1a13be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inner
+    second: {fileID: 2100000, guid: b229f591e7eab764ba321fff7034b9cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: 4acb40b9fcad89d40a4b970ff1c8654f, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
