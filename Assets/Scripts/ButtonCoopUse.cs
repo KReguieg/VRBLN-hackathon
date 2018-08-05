@@ -12,13 +12,13 @@ public class ButtonCoopUse : MonoBehaviour {
 	public float Timing = 1;
 
 	private void OnEnable() {
-		DoorButtonUseVR.Listener.AddListener(VREvent);
-		DoorButtonUsePC.Listener.AddListener(PCEvent);
+		DoorButtonUseVR.Listener += VREvent;
+		DoorButtonUsePC.Listener += PCEvent;
 	}
 
 	private void OnDisable() {
-		DoorButtonUseVR.Listener.RemoveListener(VREvent);
-		DoorButtonUsePC.Listener.RemoveListener(PCEvent);
+		DoorButtonUseVR.Listener -= VREvent;
+		DoorButtonUsePC.Listener -= PCEvent;
 	}
 
 	float VRtime = -1;

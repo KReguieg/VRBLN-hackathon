@@ -24,7 +24,7 @@ public class meteor : MonoBehaviour {
 		transform.position = Vector3.MoveTowards(transform.position, target.transform.position, step);
 		transform.Rotate (new Vector3 (0, Time.deltaTime * Random.Range(1,100), Time.deltaTime * Random.Range(1,100)));
 		if(transform.position == target.transform.position){
-			Debug.Log ("kutt");
+			
 			StartCoroutine (startmeteor());
 		}
 	}
