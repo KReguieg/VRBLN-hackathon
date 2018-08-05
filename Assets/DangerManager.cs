@@ -21,9 +21,10 @@ public class DangerManager : MonoBehaviour {
 		time = Time.time;
 		for (int i = 0; i < dangers.Count; i++)
 		{
-			WarningSign.SetActive(true);
+			
 			if(!dangers[i].Remove && Mathf.Abs(Time.time - dangers[i].time * 60 ) <= 0.01f)
 			{
+				WarningSign.SetActive(true);
 				GameObject obj = Instantiate(CometPrefab, transform);
 				obj.GetComponent<meteor>().transfromStart = start[dangers[i].Orbit - 1];
 				obj.GetComponent<meteor>().transfromTarget = end[dangers[i].Orbit - 1];
