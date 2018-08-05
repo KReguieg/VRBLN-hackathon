@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,8 +11,30 @@ public class ShakeEverything : MonoBehaviour {
 
 	public List<GameObject> thingsToShake;
 	public List<Vector3> originalObjPositions;
-	
-	void Update()
+
+	public GameEvent ShakeEvent;
+
+	private void OnEnable() {
+		ShakeEvent.Listener += ShakeE;	
+	}
+
+	private void OnDisable() {
+		ShakeEvent.Listener -= ShakeE;	
+		
+	}
+
+    private void ShakeE(GameEvent obj)
+    {
+        shake = true;
+    }
+	private void Start() {
+		originalObjPositions = new List<Vector3>();
+		foreach(GameObject obj in thingsToShake){
+				originalObjPositions.Add(obj.transform.position);
+			}
+	}
+
+    void Update()
 	{
 		if(shake){
 			foreach(var obj in thingsToShake){

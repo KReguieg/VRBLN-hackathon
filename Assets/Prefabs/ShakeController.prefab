@@ -56,3 +56,5 @@ MonoBehaviour:
   amount: 1
   thingsToShake:
   - {fileID: 0}
+  originalObjPositions: []
+  ShakeEvent: {fileID: 11400000, guid: 1728352cbbe4dfc47b6bb32cc709b358, type: 2}

@@ -10,6 +10,8 @@ public class spaceship : MonoBehaviour {
 	Transform currentTarget;
 
 	public float speed = 10;
+
+	public GameEvent ShakeEvent;
 	// Use this for initialization
 	void Start () {
 	}
@@ -34,6 +36,6 @@ public class spaceship : MonoBehaviour {
 	}
 
 	private void OnTriggerEnter(Collider other) {
-		
+		ShakeEvent.FireEvent();
 	}
 }
