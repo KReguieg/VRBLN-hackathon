@@ -32,4 +32,8 @@ public class spaceship : MonoBehaviour {
 		if(currentTarget != null)
 			transform.position = Vector3.MoveTowards(transform.position, currentTarget.transform.position, speed * Time.deltaTime );
 	}
+
+	private void OnTriggerEnter(Collider other) {
+		
+	}
 }
