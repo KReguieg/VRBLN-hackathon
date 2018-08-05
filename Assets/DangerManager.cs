@@ -8,6 +8,8 @@ public class DangerManager : MonoBehaviour {
 	public Transform[] start;
 	public Transform[] end;
 	public float dangerSpeed = 1;
+
+	public GameObject WarningSign;
 	
 	// Use this for initialization
 	void Start () {
@@ -19,6 +21,7 @@ public class DangerManager : MonoBehaviour {
 		time = Time.time;
 		for (int i = 0; i < dangers.Count; i++)
 		{
+			WarningSign.SetActive(true);
 			if(!dangers[i].Remove && Mathf.Abs(Time.time - dangers[i].time * 60 ) <= 0.01f)
 			{
 				GameObject obj = Instantiate(CometPrefab, transform);
