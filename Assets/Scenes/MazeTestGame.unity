@@ -90,7 +90,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -841,7 +841,7 @@ Transform:
   m_Children:
   - {fileID: 473361441}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &249738261
 GameObject:
@@ -1469,7 +1469,7 @@ GameObject:
   - component: {fileID: 473361443}
   - component: {fileID: 473361442}
   m_Layer: 0
-  m_Name: Collider
+  m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3797,6 +3797,7 @@ GameObject:
   m_Component:
   - component: {fileID: 950167337}
   - component: {fileID: 950167338}
+  - component: {fileID: 950167339}
   m_Layer: 0
   m_Name: CircleCollider
   m_TagString: Untagged
@@ -3830,6 +3831,18 @@ CapsuleCollider:
   m_Height: 54.159122
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &950167339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 950167336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 580f5ac81cdbc634393e2753f4c63162, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashLight: {fileID: 1121064485}
 --- !u!1 &975432479
 GameObject:
   m_ObjectHideFlags: 0
