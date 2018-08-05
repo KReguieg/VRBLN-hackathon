@@ -23,9 +23,9 @@ public class RayCasterFilter : MonoBehaviour, ICanvasRaycastFilter {
 			out worldPoint
 		);
 		point = worldPoint;
-		if (isInside){
-			RaycastBlocker.GetInstance().RaycastBlockByUI = true;
-		}
+		// if (isInside){
+		// 	RaycastBlocker.GetInstance().RaycastBlockByUI = true;
+		// }
 		return isInside;
 	}
 	#endregion
