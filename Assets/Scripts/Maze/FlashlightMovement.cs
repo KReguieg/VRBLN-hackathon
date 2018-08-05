@@ -6,7 +6,6 @@ public class FlashlightMovement : MonoBehaviour {
 
 	[SerializeField]
 	private GameObject light;
-    public int scale = 10;
 
     // Use this for initialization
     void Start () {
@@ -16,5 +15,6 @@ public class FlashlightMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 			light.transform.forward = transform.forward;
+			light.transform.position = new Vector3(transform.position.x, transform.position.y, light.transform.position.z);
 	}
 }
